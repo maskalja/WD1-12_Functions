@@ -39,7 +39,7 @@ def play_game(level):
             if level == "easy":
                 print("Your guess is not correct... try something smaller")
             else:
-                print("Wrong")
+                print("Wrong! Try again.")
         elif guess < secret:
             wg.append(guess)
             if level == "easy":
